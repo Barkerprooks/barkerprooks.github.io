@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Link Generator | Svelte Demo</title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.a0d60357.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.9bb6df5b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.2cabbdc0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.817cd7c8.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.1d1ed036.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.b01381b4.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.4e48bf6f.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div id="card" class="svelte-1nzqfhe"><div><a id="link-output" href="http://localhost:8080/iframe" target="_blank" style="color: black" class="svelte-1nzqfhe">http://localhost:8080/iframe</a>
+		</div>
+	<div><span>Charge: $</span>
+		<input id="price-input" type="number" step="0.01" class="svelte-1nzqfhe" value="0.01"></div>
+	<div id="buttons"><button class="svelte-1nzqfhe">Generate Test Payment Link</button>
+		<button class="svelte-1nzqfhe">I&#39;m Feeling Lucky (Random Price)</button></div>
+</div>
+
+
+			
+			<script>
+				{
+					__sveltekit_mi5dma = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.9bb6df5b.js"),
+						import("./_app/immutable/entry/app.1d1ed036.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
